@@ -1,0 +1,16 @@
+App(
+    apptype=FlipperAppType.EXTERNAL,
+    appid="polioan_hello_world",
+    name="polioan hello world",
+    fap_description="hello world app by polioan",
+    fap_author="polioan",
+    fap_version="1.0",
+    fap_weburl="https://github.com/polioan/flipper-zero-hello-world",
+    fap_category="Examples",
+    fap_icon="icon.png",
+    entry_point="polioan_hello_world_main",
+    requires=["gui"],
+    targets=["all"],
+    stack_size=1 * 1024,
+    resources="",
+)
